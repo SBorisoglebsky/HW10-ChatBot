@@ -2,11 +2,12 @@ package quru.qa.tests.simple;
 
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
+import quru.qa.tests.TestBase;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @Tag("smoke")
-public class PositiveTests {
+public class PositiveTests extends TestBase {
     @Test
     void test0() {
         assertTrue(true);

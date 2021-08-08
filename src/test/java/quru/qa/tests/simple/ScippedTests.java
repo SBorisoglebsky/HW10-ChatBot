@@ -2,10 +2,11 @@ package quru.qa.tests.simple;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
+import quru.qa.tests.TestBase;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class ScippedTests {
+public class ScippedTests extends TestBase {
 
     @Test
     @Disabled
